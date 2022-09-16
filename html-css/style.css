@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    position:relative;
+    left: 0;
+    right: 0;   
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    border-radius: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.content-1 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.content-1 > img {
+    margin-top: 30px;
+}
+
+.content-2 {
+    width: 200px;
+    height: 200px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.kotak:hover > .content-1 {
+    display: none;
+}
+
+.kotak:hover > .content-2 {
+    display: block;
+}
