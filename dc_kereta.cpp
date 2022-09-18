@@ -8,7 +8,7 @@ int main(void){
         std::cin >> array[a];
     }
 
-    std::cout << std::endl; // giving space between
+    std::cout<<std::endl; // giving space between
 
     for (int a = panjang-1; a >= 0; a--){
         std::cout << array[a] << ", ";
